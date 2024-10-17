@@ -24,5 +24,15 @@
 	// "remoteUser": "root",
 
 	// Include environment variable.
-	"runArgs": ["--env-file", ".env"]
+	"runArgs": [
+		"--env-file",
+		".env"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go"
+			]
+		}
+	}
 }
