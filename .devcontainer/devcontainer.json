@@ -26,9 +26,12 @@
 	// Include environment variable.
 	"runArgs": [
 		"--env-file",
-		".env"
+		".env",
+		"--add-host=host.docker.internal:host-gateway"
 	],
+
 	"customizations": {
+		// Include VSCode extensions.
 		"vscode": {
 			"extensions": [
 				"golang.go"
